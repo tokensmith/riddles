@@ -1,4 +1,5 @@
 rootProject.name = 'riddles'
 include 'fibonacci'
 include 'sum'
+include 'change'
 

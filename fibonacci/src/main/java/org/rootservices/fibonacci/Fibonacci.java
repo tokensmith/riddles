@@ -49,7 +49,7 @@ public class Fibonacci {
      */
     protected Long fibonacciRecursive(Integer n) {
         if (n <= 1) return n.longValue();
-        else return fibonacci(n-1) + fibonacci(n-2);
+        else return fibonacciRecursive(n-1) + fibonacciRecursive(n-2);
     }
 
     public List<Long> sequence(Integer n) {
