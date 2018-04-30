@@ -22,15 +22,15 @@ public class FibonacciTest {
         List <Long> sequence = subject.sequence(7);
 
         assertThat(sequence, is(notNullValue()));
-        assertThat(sequence.size(), is(8));
+        assertThat(sequence.size(), is(7));
 
-        assertThat(sequence.get(0), is(0L));
+        assertThat(sequence.get(0), is(1L));
         assertThat(sequence.get(1), is(1L));
-        assertThat(sequence.get(2), is(1L));
-        assertThat(sequence.get(3), is(2L));
-        assertThat(sequence.get(4), is(3L));
-        assertThat(sequence.get(5), is(5L));
-        assertThat(sequence.get(6), is(8L));
+        assertThat(sequence.get(2), is(2L));
+        assertThat(sequence.get(3), is(3L));
+        assertThat(sequence.get(4), is(5L));
+        assertThat(sequence.get(5), is(8L));
+        assertThat(sequence.get(6), is(13L));
     }
 
     @Test
