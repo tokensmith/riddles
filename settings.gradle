@@ -3,4 +3,5 @@ include 'fibonacci'
 include 'sum'
 include 'change'
 include 'postfix'
+include 'celebrity'
 
