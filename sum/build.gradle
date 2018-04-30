@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'org.rootservices'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.9
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.apache.logging.log4j:log4j-api:${log4jVersion}"
+    compile "org.apache.logging.log4j:log4j-core:${log4jVersion}"
+
+    testImplementation 'junit:junit:4.12'
+}
